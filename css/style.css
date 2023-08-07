@@ -16,6 +16,16 @@ body {
 h1 {
   font-size: 8rem;
 }
+.main {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
 .canvas {
   width: 50rem;
   height: 50rem;
